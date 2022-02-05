@@ -40,16 +40,11 @@
 @media screen and (max-width: 600px) {
   .navbar {
     padding: 1rem 0;
+    flex-direction: column;
   }
 
   .navbar .btn {
     margin-right: 1rem;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .navbar {
-    flex-direction: column;
   }
 
   .name {

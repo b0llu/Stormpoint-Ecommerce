@@ -1,3 +1,28 @@
+:root {
+  --heart-hover: #b6bab3;
+}
+
 .card-container.product-card {
   width: 30rem;
+}
+
+.card-container .fas {
+  color: var(--heart-hover);
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+
+  .section-container {
+    justify-content: space-around;
+  }
+
+  .card-container.product-card {
+    width: 23rem;
+    margin: 5px;
+  }
 }

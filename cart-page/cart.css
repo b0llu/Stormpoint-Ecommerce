@@ -99,6 +99,22 @@
     outline: none;
 }
 
+@media screen and (max-width: 1000px) {
+    html {
+        font-size: 50%;
+    }
+
+    .item-showcase-container .section-container {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .card-container.product-card {
+        width: 21rem;
+        margin: 5px;
+    }
+}
+
 @media screen and (max-width: 900px) {
     .sidebar {
         margin-left: 0;
@@ -109,6 +125,11 @@
         padding: 1rem;
         border-radius: 0.5rem;
         width: 100%;
+    }
+
+    .ammount-container {
+        padding-bottom: 2rem;
+        border-bottom: 1px solid var(--content-color);
     }
 
     .input-w {
@@ -154,11 +175,6 @@
     .margin-left-auto {
         margin-right: auto;
         margin-top: 2rem;
-    }
-
-    .ammount-container {
-        padding-bottom: 2rem;
-        border-bottom: 1px solid var(--content-color);
     }
 
     .ammount-container .card-container {

@@ -1,3 +1,7 @@
+:root {
+    --heart-hover: #b6bab3;
+}
+
 .section-container {
     justify-content: space-between;
 }
@@ -16,12 +20,11 @@
 .card-container .fas {
     color: var(--alert-color);
     cursor: pointer;
-    padding: 7px;
     border-radius: 50%;
 }
 
 .card-container .fas:hover {
-    background-color: var(--icon-color);
+    color: var(--heart-hover);
     transition: 0.2s ease-in-out;
 }
 

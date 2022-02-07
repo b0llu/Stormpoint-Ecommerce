@@ -4,6 +4,7 @@
 
 .card-container.product-card {
   width: 30rem;
+  justify-content: space-between;
 }
 
 .card-container .fas {
@@ -12,7 +13,24 @@
   border-radius: 50%;
 }
 
-@media screen and (max-width: 1000px) {
+.card-container .card-img {
+  object-fit: contain;
+}
+
+.product-img {
+  width: 30rem;
+  height: 30rem;
+}
+
+.card-container .card-title {
+  font-size: 2rem;
+}
+
+.product-card .card-subtitle {
+  pointer-events: all;
+}
+
+@media screen and (max-width: 1300px) {
   html {
     font-size: 50%;
   }
@@ -24,5 +42,11 @@
   .card-container.product-card {
     width: 23rem;
     margin: 5px;
+    min-height: 60rem;
+  }
+
+  .product-img {
+    width: 23rem;
+    height: 23rem;
   }
 }

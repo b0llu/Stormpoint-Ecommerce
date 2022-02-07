@@ -26,6 +26,7 @@
 }
 
 .card-container.product-card {
+    justify-content: space-between;
     width: 30rem;
 }
 
@@ -97,6 +98,36 @@
 
 .search-categories .select select:focus {
     outline: none;
+}
+
+.card-container .card-img {
+    object-fit: contain;
+}
+
+.product-img {
+    width: 30rem;
+    height: 30rem;
+}
+
+.card-container .card-title {
+    font-size: 2rem;
+}
+
+.product-card .card-subtitle {
+    pointer-events: all;
+}
+
+@media screen and (max-width: 1300px) {
+    .product-img {
+        width: 23rem;
+        height: 23rem;
+    }
+
+    .card-container.product-card {
+        width: 23rem;
+        margin: 5px;
+        min-height: 60rem;
+    }
 }
 
 @media screen and (max-width: 1000px) {

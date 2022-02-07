@@ -6,6 +6,10 @@
     color: var(--for-theme);
 }
 
+.position-fixed {
+    position: fixed;
+}
+
 .stick {
     position: sticky;
     top: 0;

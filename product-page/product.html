@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://storm-components.netlify.app/components.css" />
+  <link rel="stylesheet" href="../ecom-css/product-grid-layout.css" />
+  <link rel="stylesheet" href="../ecom-css/header.css" />
+  <link rel="stylesheet" href="../ecom-css/footer.css" />
+  <link rel="stylesheet" href="../ecom-css/sidebar.css" />
+  <link rel="stylesheet" href="../ecom-css/section.css" />
+  <link rel="stylesheet" href="./product.css" />
+  <link rel="stylesheet" href="../ecom-css/media-query.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <title>Product | Stormpoint</title>
+</head>
+
+<body>
+  <section class="landing-container">
+    <nav>
+      <div class="navbar">
+        <a href="../index.html">
+          <h1 class="name"><i class="fas fa-bolt"></i> Stormpoint</h1>
+        </a>
+        <input class="input-w" placeholder="Search" type="text" />
+        <div class="margin-left-auto">
+          <button class="btn disabled-btn">Login</button>
+          <button class="btn disabled-btn">Sign Up</button>
+          <div class="icon-container">
+            <div class="badge">
+              <a href="../wishlist-page/wishlist.html">
+                <i class="far fa-heart icon1"></i>
+              </a>
+              <div class="number number-change">0</div>
+            </div>
+            <div class="badge">
+              <a href="../cart-page/cart.html"><i class="fas fa-shopping-cart icon"></i></a>
+              <div class="number">0</div>
+            </div>
+            <i id="toggle-theme" class="fas fa-moon icon"></i>
+          </div>
+        </div>
+      </div>
+      <input class="mobile-input" type="text" placeholder="Search" />
+    </nav>
+    <aside>
+      <div id="sidebar-menu" class="sidebar stick position-hidden">
+        <div class="title-of-filter">
+          <button id="filter-btn" class="link-no-style filter-hover">
+            FILTERS
+          </button>
+          <button class="link-no-style filter-hover underline-primary">
+            CLEAR ALL
+          </button>
+        </div>
+        <ul class="list-style-none filter-section">
+          <div class="filter-divider-line"></div>
+          <li class="filter-section-title">Sort</li>
+          <li>
+            <label class="form-label">
+              <input type="radio" name="" id="" />
+              Price High to Low</label>
+          </li>
+          <li>
+            <label class="form-label">
+              <input type="radio" name="" id="" />
+              Price Low to High</label>
+          </li>
+          <div class="filter-divider-line"></div>
+          <li class="filter-section-title">Rating</li>
+          <div class="rating">
+            <label class="slider-label" for=""><span>0 </span><span>50 </span><span>100</span></label>
+            <input class="slider" type="range" min="1" max="100" value="50">
+          </div>
+          <div class="filter-divider-line"></div>
+          <li class="filter-section-title">Categories</li>
+          <li>
+            <label class="form-label">
+              <input type="checkbox" name="" id="" />
+              Processor</label>
+          </li>
+          <li>
+            <label class="form-label">
+              <input type="checkbox" name="" id="" />
+              Graphics Card</label>
+          </li>
+          <li>
+            <label class="form-label">
+              <input type="checkbox" name="" id="" />
+              Ram</label>
+          </li>
+          <li>
+            <label class="form-label">
+              <input type="checkbox" name="" id="" />
+              Cabinet</label>
+          </li>
+          <li>
+            <label class="form-label">
+              <input type="checkbox" name="" id="" />
+              Utilities</label>
+          </li>
+          <div class="filter-divider-line"></div>
+          <li class="filter-section-title">Brands</li>
+          <li>
+            <label class="form-label">
+              <input type="checkbox" name="" id="" />
+              Intel</label>
+          </li>
+          <li>
+            <label class="form-label">
+              <input type="checkbox" name="" id="" />
+              AMD</label>
+          </li>
+          <li>
+            <label class="form-label">
+              <input type="checkbox" name="" id="" />
+              Nvidia</label>
+          </li>
+          <li>
+            <label class="form-label">
+              <input type="checkbox" name="" id="" />
+              HyperX</label>
+          </li>
+          <li>
+            <label class="form-label">
+              <input type="checkbox" name="" id="" />
+              Cooler Master</label>
+          </li>
+          <div class="filter-divider-line"></div>
+          <li class="filter-section-title">Other</li>
+          <li>
+            <label class="form-label">
+              <input type="checkbox" name="" id="" />
+              Include out of stock</label>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <section>
+      <i id="sidebar-toggle" class="fas fa-bars hamburger stick"></i>
+      <div class="section-container">
+        <div class="card-container product-card card-shadow">
+          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
+          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-subtitle">RTX 2080Ti</h2>
+          <p class="card-description">Your Text</p>
+          <div class="card-btn">
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card-container product-card card-shadow">
+          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
+          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-subtitle">RTX 2080Ti</h2>
+          <p class="card-description">Your Text</p>
+          <div class="card-btn">
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card-container product-card card-shadow">
+          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
+          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-subtitle">RTX 2080Ti</h2>
+          <p class="card-description">Your Text</p>
+          <div class="card-btn">
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card-container product-card card-shadow">
+          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
+          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-subtitle">RTX 2080Ti</h2>
+          <p class="card-description">Your Text</p>
+          <div class="card-btn">
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card-container product-card card-shadow">
+          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
+          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-subtitle">RTX 2080Ti</h2>
+          <p class="card-description">Your Text</p>
+          <div class="card-btn">
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card-container product-card card-shadow">
+          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
+          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-subtitle">RTX 2080Ti</h2>
+          <p class="card-description">Your Text</p>
+          <div class="card-btn">
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card-container product-card card-shadow">
+          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
+          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-subtitle">RTX 2080Ti</h2>
+          <p class="card-description">Your Text</p>
+          <div class="card-btn">
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card-container product-card card-shadow">
+          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
+          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-subtitle">RTX 2080Ti</h2>
+          <p class="card-description">Your Text</p>
+          <div class="card-btn">
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card-container product-card card-shadow">
+          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
+          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-subtitle">RTX 2080Ti</h2>
+          <p class="card-description">Your Text</p>
+          <div class="card-btn">
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card-container product-card card-shadow">
+          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
+          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-subtitle">RTX 2080Ti</h2>
+          <p class="card-description">Your Text</p>
+          <div class="card-btn">
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card-container product-card card-shadow">
+          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
+          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-subtitle">RTX 2080Ti</h2>
+          <p class="card-description">Your Text</p>
+          <div class="card-btn">
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card-container product-card card-shadow">
+          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
+          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-subtitle">RTX 2080Ti</h2>
+          <p class="card-description">Your Text</p>
+          <div class="card-btn">
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <h2>Made by Dhruv Samant</h2>
+        <div class="footer-icon-container">
+          <a href="https://github.com/B0llu"><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com/TheBestDhruv"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <script src="../ecom-js/theme.js"></script>
+  <script src="../ecom-js/sidebar.js"></script>
+</body>
+
+</html>

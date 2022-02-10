@@ -4,6 +4,7 @@
     border-right: 1px solid var(--secondary-color);
     padding: 0 3rem;
     color: var(--for-theme);
+    overflow-y: auto;
 }
 
 .position-fixed {

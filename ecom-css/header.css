@@ -73,6 +73,7 @@
 
 .icon-container .icon {
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .icon-container i:hover {

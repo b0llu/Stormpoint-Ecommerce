@@ -1,0 +1,51 @@
+.section-container {
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem 0;
+    color: var(--content-color);
+}
+
+.card-container.product-card {
+    width: 30rem;
+}
+
+.card-container .fas {
+    color: var(--alert-color);
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.card-container .fas:hover {
+    background-color: var(--icon-color);
+    transition: 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1000px) {
+    html {
+        font-size: 50%;
+    }
+
+    section.landing-container {
+        grid-template-columns: repeat(1, 25rem) repeat(2, 1fr);
+        grid-template-areas:
+            "nav nav nav"
+            "contentarea contentarea contentarea"
+            "contentarea contentarea contentarea"
+            "contentarea contentarea contentarea"
+            "footerarea footerarea footerarea";
+    }
+
+    .section-container {
+        justify-content: space-around;
+    }
+
+    .card-container.product-card {
+        width: 23rem;
+        margin: 5px;
+    }
+}

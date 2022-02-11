@@ -7,6 +7,14 @@
   justify-content: space-between;
 }
 
+.product-card .card-badge {
+  font-size: 2rem;
+}
+
+.disable {
+  pointer-events: none;
+}
+
 .card-container .fas {
   color: var(--heart-hover);
   cursor: pointer;

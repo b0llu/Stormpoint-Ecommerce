@@ -2,6 +2,7 @@
     --secondary-btn-color: #B7BBB4;
     --secondary-btn-color-hover: #D0D4CD;
     --order-btn: #339637;
+    --heart-hover: #b6bab3;
 }
 
 .title {
@@ -117,6 +118,10 @@
     pointer-events: all;
 }
 
+.product-card .fas {
+    color: var(--heart-hover);
+}
+
 @media screen and (max-width: 1300px) {
     .product-img {
         width: 23rem;
@@ -209,6 +214,6 @@
     }
 
     .ammount-container .card-container {
-        width: 30rem;
+        width: 42rem;
     }
 }

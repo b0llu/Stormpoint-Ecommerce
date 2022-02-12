@@ -6,13 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://storm-components.netlify.app/components.css" />
-    <link rel="stylesheet" href="../ecom-css/wishlist-grid-layout.css" />
+    <link rel="stylesheet" href="../ecom-css/login-grid-layout.css" />
     <link rel="stylesheet" href="../ecom-css/header.css" />
     <link rel="stylesheet" href="../ecom-css/footer.css" />
     <link rel="stylesheet" href="../ecom-css/sidebar.css" />
     <link rel="stylesheet" href="../ecom-css/section.css" />
-    <link rel="stylesheet" href="./wishlist.css" />
-    <link rel="stylesheet" href="../ecom-css/media-query.css" />
+    <link rel="stylesheet" href="./login.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>Product | Stormpoint</title>
@@ -27,7 +26,7 @@
                 </a>
                 <input class="header-input" placeholder="Search" type="text" />
                 <div class="margin-left-auto">
-                    <a href="../login-page/login.html">
+                    <a href="./login.html">
                         <button class="btn disabled-btn">Login</button>
                     </a>
                     <a href="">
@@ -35,7 +34,7 @@
                     </a>
                     <div class="icon-container">
                         <div class="badge">
-                            <a href="./wishlist.html">
+                            <a href="../wishlist-page/wishlist.html">
                                 <i class="far fa-heart icon1"></i>
                             </a>
                             <div class="number number-change">0</div>
@@ -51,45 +50,19 @@
             <input class="mobile-input" type="text" placeholder="Search" />
         </nav>
         <section>
-            <h1 class="title">My Wishlist (4)</h1>
-            <div class="section-container">
-                <div class="card-container product-card card-shadow">
-                    <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
-                    <h1 class="card-title">RTX 2080Ti <i class="fas fa-heart"></i></i></h1>
-                    <h2 class="card-subtitle">Nvidia</h2>
-                    <p class="card-description">Your Text</p>
-                    <div class="card-btn">
-                        <button class="btn">Add to Cart</button>
-                    </div>
+            <main class="main-content">
+                <div class="login-container card-shadow">
+                    <h1>Login</h1>
+                    <label for="username">Email address:</label>
+                    <input class="block-inputs" placeholder="JohnWick@gmail.com" type="text">
+                    <label for="password">Password:</label>
+                    <input class="block-inputs" placeholder="*****" type="password">
+                    <p><input type="checkbox"> Remember me</p>
+                    <a class="btn-forgot" href="#">Forgot your password?</a>
+                    <a class="btn-login btn btn-primary" href="#">Login</a>
+                    <a class="btn-sign-up" href="#">Create New Account <i class="fas fa-chevron-right"></i></a>
                 </div>
-                <div class="card-container product-card card-shadow">
-                    <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
-                    <h1 class="card-title">RTX 2080Ti <i class="fas fa-heart"></i></i></h1>
-                    <h2 class="card-subtitle">Nvidia</h2>
-                    <p class="card-description">Your Text</p>
-                    <div class="card-btn">
-                        <button class="btn">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="card-container product-card card-shadow">
-                    <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
-                    <h1 class="card-title">RTX 2080Ti <i class="fas fa-heart"></i></i></h1>
-                    <h2 class="card-subtitle">Nvidia</h2>
-                    <p class="card-description">Your Text</p>
-                    <div class="card-btn">
-                        <button class="btn">Add to Cart</button>
-                    </div>
-                </div>
-                <div class="card-container product-card card-shadow">
-                    <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
-                    <h1 class="card-title">RTX 2080Ti <i class="fas fa-heart"></i></i></h1>
-                    <h2 class="card-subtitle">Nvidia</h2>
-                    <p class="card-description">Your Text</p>
-                    <div class="card-btn">
-                        <button class="btn">Add to Cart</button>
-                    </div>
-                </div>
-            </div>
+            </main>
         </section>
         <footer>
             <div class="footer">
@@ -102,7 +75,6 @@
         </footer>
     </section>
     <script src="../ecom-js/theme.js"></script>
-    <script src="../ecom-js/sidebar.js"></script>
 </body>
 
 </html>

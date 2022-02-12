@@ -6,6 +6,7 @@ const body = document.querySelector('body')
 sidebarToggle.addEventListener("click", () => {
   sidebarMenu.classList.toggle("position-open");
   sidebarToggle.classList.toggle("fa-bars");
+  sidebarToggle.classList.toggle("fa-arrow-left");
   body.classList.toggle("position-fixed")
   filterBtn.innerHTML = "CONFIRM";
 });
@@ -13,6 +14,7 @@ sidebarToggle.addEventListener("click", () => {
 filterBtn.addEventListener("click", () => {
   sidebarMenu.classList.toggle("position-open");
   sidebarToggle.classList.toggle("fa-bars");
+  sidebarToggle.classList.toggle("fa-arrow-left");
   body.classList.remove("position-fixed")
   filterBtn.innerHTML = "FILTERS";
 })

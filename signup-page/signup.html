@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../ecom-css/footer.css" />
     <link rel="stylesheet" href="../ecom-css/sidebar.css" />
     <link rel="stylesheet" href="../ecom-css/section.css" />
-    <link rel="stylesheet" href="./login.css" />
+    <link rel="stylesheet" href="./signup.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>Product | Stormpoint</title>
@@ -24,12 +24,12 @@
                 <a href="../product-page/product.html">
                     <h1 class="name"><i class="fas fa-bolt"></i> Stormpoint</h1>
                 </a>
-                <input class="header-input" placeholder="Search" type="text" />
+                <input class="input-w" placeholder="Search" type="text" />
                 <div class="margin-left-auto">
                     <a href="./login.html">
                         <button class="btn disabled-btn">Login</button>
                     </a>
-                    <a href="../signup-page/signup.html">
+                    <a href="./signup.html">
                         <button class="btn disabled-btn">Sign Up</button>
                     </a>
                     <div class="icon-container">
@@ -52,15 +52,18 @@
         <section>
             <main class="main-content">
                 <div class="login-container card-shadow">
-                    <h1>Login</h1>
+                    <h1>SignUp</h1>
+                    <label for="username">Username:</label>
+                    <input class="block-inputs" placeholder="IamtheOne" type="text">
                     <label for="username">Email address:</label>
                     <input class="block-inputs" placeholder="JohnWick@gmail.com" type="text">
                     <label for="password">Password:</label>
                     <input class="block-inputs" placeholder="*****" type="password">
+                    <label for="password">Confirm Password:</label>
+                    <input class="block-inputs" placeholder="*****" type="password">
                     <p><input type="checkbox"> Remember me</p>
-                    <a class="btn-forgot" href="#">Forgot your password?</a>
                     <a class="btn-login btn btn-primary" href="#">Login</a>
-                    <a class="btn-sign-up" href="#">Create New Account <i class="fas fa-chevron-right"></i></a>
+                    <a class="btn-sign-up" href="#">Already have an Account? <i class="fas fa-chevron-right"></i></a>
                 </div>
             </main>
         </section>

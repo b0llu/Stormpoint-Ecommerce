@@ -40,37 +40,37 @@
     transition: 0.2s ease-in-out;
 }
 
-.ammount-container {
+.amount-container {
     align-self: flex-start;
     margin: 0 2rem;
 }
 
-.ammount-container .card-container {
+.amount-container .card-container {
     width: 50rem;
     margin-top: 2rem;
 }
 
-.ammount-container .card-container .btn {
+.amount-container .card-container .btn {
     width: auto;
     background-color: var(--success-color);
     border: none;
     height: 5rem;
 }
 
-.ammount-container .card-container .btn:hover {
+.amount-container .card-container .btn:hover {
     background-color: var(--order-btn);
     transition: 0.2s ease-in-out;
 }
 
-.ammount-container h2 {
+.amount-container h2 {
     display: flex;
     justify-content: space-between;
 }
 
 .search-categories {
     font-size: 1.3rem;
-    margin: 0 1rem;
-    padding: 1rem 0.8rem 1rem 1.4rem;
+    margin: 0 10px;
+    padding: 10px 8px 10px 1.4rem;
     background: #fff;
     border: 1px solid #ccc;
     border-radius: 6px;
@@ -158,17 +158,17 @@
 
     .mobile-input {
         display: block;
-        padding: 1rem;
-        border-radius: 0.5rem;
+        padding: 10px;
+        border-radius: 5px;
         width: 100%;
     }
 
-    .ammount-container {
+    .amount-container {
         padding-bottom: 2rem;
         border-bottom: 1px solid var(--content-color);
     }
 
-    .input-w {
+    .header-input {
         display: none;
     }
 
@@ -180,7 +180,7 @@
         flex-direction: column-reverse;
     }
 
-    .ammount-container {
+    .amount-container {
         align-self: center;
     }
 

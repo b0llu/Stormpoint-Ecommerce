@@ -1,0 +1,138 @@
+:root {
+    --login-color: #238ac5;
+    --login-color-dark: #0A71AC;
+    --text-black: black;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: larger;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 4rem;
+    gap: 10px;
+    background-color: #d8dcdf;
+    color: var(--login-color);
+    border-radius: 5px;
+}
+
+.login-container h1 {
+    font-size: 2rem;
+    color: var(--text-black);
+}
+
+.login-container a {
+    text-decoration: none;
+}
+
+.login-container .block-inputs {
+    display: block;
+    border-radius: 5px;
+    padding: 5px 2px;
+    border: 1px solid var(--content-color);
+}
+
+::placeholder {
+    padding: 0 12px;
+    font-family: "Outfit";
+    letter-spacing: 1px;
+}
+
+/* forget button */
+.btn-forgot {
+    color: var(--text-black);
+}
+
+/* login button */
+.btn-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--login-color);
+    border: none;
+    color: var(--text-black);
+    font-weight: 500;
+}
+
+.btn-login:hover {
+    background-color: var(--login-color-dark);
+    transition: 0.2s ease-in-out;
+    color: var(--white);
+}
+
+.login-container .btn-login {
+    padding: 8px 0;
+}
+
+/* sign up btn*/
+.btn-sign-up {
+    margin-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--login-color);
+}
+
+@media screen and (max-width: 850px) {
+    html {
+        font-size: 50%;
+    }
+
+    .landing-container {
+        grid-template-columns: repeat(1, 25rem) repeat(2, 1fr);
+        grid-template-areas:
+            "nav nav nav"
+            "contentarea contentarea contentarea"
+            "contentarea contentarea contentarea"
+            "contentarea contentarea contentarea"
+            "footerarea footerarea footerarea";
+    }
+
+    .section-container {
+        width: 100%;
+    }
+
+    .sidebar {
+        margin-left: 0;
+    }
+
+    .mobile-input {
+        display: block;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        width: 100%;
+    }
+
+    .header-input {
+        display: none;
+    }
+
+    .margin-left-auto {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        padding: 1rem 0;
+        flex-direction: column;
+    }
+
+    .navbar .btn {
+        margin-right: 1rem;
+    }
+
+    .name {
+        margin: 0;
+    }
+
+    .margin-left-auto {
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+}

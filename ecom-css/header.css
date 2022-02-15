@@ -12,7 +12,7 @@
   align-items: center;
 }
 
-.input-w {
+.header-input {
   margin-left: auto;
   margin-right: 5rem;
   padding: 1rem;
@@ -21,7 +21,7 @@
   width: 30%;
 }
 
-.input-w:focus {
+.header-input:focus {
   outline: none;
 }
 

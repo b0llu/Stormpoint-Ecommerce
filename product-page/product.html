@@ -27,13 +27,13 @@
         </a>
         <input class="header-input" placeholder="Search" type="text" />
         <div class="margin-left-auto">
-          <a href="../login-page/login.html">
-            <button class="btn disabled-btn">Login</button>
-          </a>
-          <a href="../signup-page/signup.html">
-            <button class="btn disabled-btn">Sign Up</button>
-          </a>
           <div class="icon-container">
+            <div class="badge">
+              <a href="../wishlist-page/wishlist.html">
+                <i class="fa-solid fas fa-user"></i>
+              </a>
+              <div class="number number-change">0</div>
+            </div>
             <div class="badge">
               <a href="../wishlist-page/wishlist.html">
                 <i class="far fa-heart icon1"></i>
@@ -62,7 +62,7 @@
         </div>
         <ul class="list-style-none filter-section">
           <div class="filter-divider-line"></div>
-          <li class="filter-section-title">Sort</li>
+          <li class="filter-section-title">Sort by</li>
           <li>
             <label class="form-label">
               <input type="radio" name="" id="" />
@@ -76,7 +76,8 @@
           <div class="filter-divider-line"></div>
           <li class="filter-section-title">Rating</li>
           <div class="rating">
-            <label class="slider-label" for=""><span>0 </span><span>50 </span><span>100</span></label>
+            <label class="slider-label"
+              for=""><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></label>
             <input class="slider" type="range" min="1" max="100" value="50">
           </div>
           <div class="filter-divider-line"></div>
@@ -147,109 +148,85 @@
       <i id="sidebar-toggle" class="fas fa-bars hamburger stick"></i>
       <div class="section-container">
         <div class="card-container product-card card-shadow">
-          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
-          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
-          <h2 class="card-subtitle">RTX 2080Ti</h2>
-          <p class="card-description">Your Text</p>
+          <div class="product-img">
+            <img class="card-img"
+              src="../assets/intel/i7-png.png"
+              alt="..." />
+          </div>
+          <h6 class="card-badge">NEW</h6>
+          <h1 class="card-subtitle">Intel <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-title">Intel core i7-10700k </h2>
+          <p class="card-description">Intel - Core i7-10700K 10th Generation 8-Core - 16-Thread - 3.8 GHz (5.1 GHz Turbo)
+            Socket LGA1200 Unlocked Desktop Processor.</p>
+            <p class="card-description">Price: ₹39,999.00</p>
           <div class="card-btn">
             <button class="btn">Add to Cart</button>
           </div>
         </div>
         <div class="card-container product-card card-shadow">
-          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
-          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
-          <h2 class="card-subtitle">RTX 2080Ti</h2>
-          <p class="card-description">Your Text</p>
+          <div class="product-img">
+            <img class="card-img" src="../assets/intel/i9-jpeg.jpg" alt="..." />
+          </div>
+          <h6 class="card-badge">Out of Stock</h6>
+          <h1 class="card-subtitle">Intel <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-title">Intel Core i9-12900K</h2>
+          <p class="card-description">Intel Core i9-12900K Desktop Processor 16 (8P+8E) Cores up to 5.2 GHz Unlocked
+            LGA1700 600 Series Chipset 125W. Great performance for price.</p>
+            <p class="card-description">Price: ₹39,999.00</p>
+          <div class="card-btn">
+            <button class="btn disable">Add to Cart</button>
+          </div>
+        </div>
+        <div class="card-container product-card card-shadow">
+          <div class="product-img">
+            <img class="card-img" src="../assets/hyperx/ram-16-jpeg.jpg" alt="..." />
+          </div>
+          <h1 class="card-subtitle">HyperX <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-title">HyperX Fury Black 16GB 2666MHz DDR4 CL16 DIMM Single Stick HX426C16FB4/16</h2>
+          <p class="card-description">HyperX
+            is the high-performance product division of Kingston Technology, the world’s largest independent memory
+            manufacturer.</p>
+            <p class="card-description">Price: ₹9,120.00</p>
           <div class="card-btn">
             <button class="btn">Add to Cart</button>
           </div>
         </div>
         <div class="card-container product-card card-shadow">
-          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
-          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
-          <h2 class="card-subtitle">RTX 2080Ti</h2>
-          <p class="card-description">Your Text</p>
+          <div class="product-img">
+            <img class="card-img" src="../assets/hyperx/lap-ram-jpeg.jpg" alt="..." />
+          </div>
+          <h1 class="card-subtitle">HyperX <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-title">HyperX Impact 16GB 2666MHz DDR4 CL15 260-Pin SODIMM Laptop Memory</h2>
+          <p class="card-description">Powerful SODIMM Performance
+            Plug N Play Automatic Overclocking
+            Intel XMP-Ready Profiles. Plug N Play Automatic Overclocking</p>
+            <p class="card-description">Price: ₹7,750.00</p>
           <div class="card-btn">
             <button class="btn">Add to Cart</button>
           </div>
         </div>
         <div class="card-container product-card card-shadow">
-          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
-          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
-          <h2 class="card-subtitle">RTX 2080Ti</h2>
-          <p class="card-description">Your Text</p>
+          <div class="product-img">
+            <img class="card-img" src="../assets/nvidia/3060-gc-png.jpg" alt="..." />
+          </div>
+          <h1 class="card-subtitle">Nvidia <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-title">GeForce RTX 3060 Eagle OC 12G</h2>
+          <p class="card-description">GIGABYTE GeForce RTX 3060 Eagle OC 12G (REV2.0) Graphics Card, 2X WINDFORCE Fans,
+            12GB 192-bit GDDR6, GV-N3060EAGLE OC-12GD REV2.0 Video Card</p>
+            <p class="card-description">Price: ₹78,999.00</p>
           <div class="card-btn">
             <button class="btn">Add to Cart</button>
           </div>
         </div>
         <div class="card-container product-card card-shadow">
-          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
-          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
-          <h2 class="card-subtitle">RTX 2080Ti</h2>
-          <p class="card-description">Your Text</p>
-          <div class="card-btn">
-            <button class="btn">Add to Cart</button>
+          <div class="product-img">
+            <img class="card-img" src="../assets/nvidia/3090-gc-png.png" alt="..." />
           </div>
-        </div>
-        <div class="card-container product-card card-shadow">
-          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
-          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
-          <h2 class="card-subtitle">RTX 2080Ti</h2>
-          <p class="card-description">Your Text</p>
-          <div class="card-btn">
-            <button class="btn">Add to Cart</button>
-          </div>
-        </div>
-        <div class="card-container product-card card-shadow">
-          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
-          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
-          <h2 class="card-subtitle">RTX 2080Ti</h2>
-          <p class="card-description">Your Text</p>
-          <div class="card-btn">
-            <button class="btn">Add to Cart</button>
-          </div>
-        </div>
-        <div class="card-container product-card card-shadow">
-          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
-          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
-          <h2 class="card-subtitle">RTX 2080Ti</h2>
-          <p class="card-description">Your Text</p>
-          <div class="card-btn">
-            <button class="btn">Add to Cart</button>
-          </div>
-        </div>
-        <div class="card-container product-card card-shadow">
-          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
-          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
-          <h2 class="card-subtitle">RTX 2080Ti</h2>
-          <p class="card-description">Your Text</p>
-          <div class="card-btn">
-            <button class="btn">Add to Cart</button>
-          </div>
-        </div>
-        <div class="card-container product-card card-shadow">
-          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
-          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
-          <h2 class="card-subtitle">RTX 2080Ti</h2>
-          <p class="card-description">Your Text</p>
-          <div class="card-btn">
-            <button class="btn">Add to Cart</button>
-          </div>
-        </div>
-        <div class="card-container product-card card-shadow">
-          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
-          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
-          <h2 class="card-subtitle">RTX 2080Ti</h2>
-          <p class="card-description">Your Text</p>
-          <div class="card-btn">
-            <button class="btn">Add to Cart</button>
-          </div>
-        </div>
-        <div class="card-container product-card card-shadow">
-          <img class="card-img" src="https://picsum.photos/400/400" alt="..." />
-          <h1 class="card-title">Nvidia <i class="fas fa-heart"></i></i></h1>
-          <h2 class="card-subtitle">RTX 2080Ti</h2>
-          <p class="card-description">Your Text</p>
+          <h1 class="card-subtitle">Nvidia <i class="fas fa-heart"></i></i></h1>
+          <h2 class="card-title">GeForce RTX 3090 Ventus 3X 24G OC</h2>
+          <p class="card-description">The award-winning MSI TORX Fan 3.0 design keeps the limits of thermal performance
+            turning. Fan blades alternate between traditional blades that focus airflow into the heatsink</p>
+            <p class="card-description">Price: ₹3,14,990.00</p>
           <div class="card-btn">
             <button class="btn">Add to Cart</button>
           </div>

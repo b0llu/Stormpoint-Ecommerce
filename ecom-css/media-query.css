@@ -80,7 +80,7 @@
 
   .position-hidden {
     position: fixed;
-    width: 100%;
+    width: 60%;
     height: 100%;
     left: 0;
     top: 0;
@@ -92,7 +92,7 @@
 
   .position-open {
     position: fixed;
-    width: 100%;
+    width: 60%;
     height: 100%;
     left: 0;
     top: 0;

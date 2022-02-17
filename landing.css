@@ -51,6 +51,9 @@ footer {
 
 /* title section */
 .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     margin-top: auto;
     margin-bottom: auto;
@@ -97,6 +100,9 @@ footer {
 /* brand and products section */
 
 .section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     text-align: center;
     margin-top: 5rem;
@@ -111,6 +117,9 @@ footer {
 }
 
 .categories-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 2rem;
     width: 100%;
     flex-wrap: wrap;

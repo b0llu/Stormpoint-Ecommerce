@@ -1,127 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://storm-components.netlify.app/components.css" />
+    <link
+      rel="stylesheet"
+      href="https://storm-components.netlify.app/components.css"
+    />
     <link rel="stylesheet" href="landing.css" />
     <link rel="stylesheet" href="./ecom-css/header.css" />
     <link rel="stylesheet" href="./ecom-css/footer.css" />
 
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <title>Stormpoint</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <section class="landing-container">
-        <nav>
-            <div class="navbar">
-                <h1 class="name"><i class="fas fa-bolt"></i> Stormpoint</h1>
-                <input class="header-input" placeholder="Search" type="text" />
-                <div class="margin-left-auto">
-                    <div class="icon-container">
-                        <div class="badge">
-                            <a href="./wishlist-page/wishlist.html">
-                                <i class="fa-solid fas fa-user"></i>
-                            </a>
-                            <div class="number number-change">0</div>
-                        </div>
-                        <div class="badge">
-                            <a href="./wishlist-page/wishlist.html">
-                                <i class="far fa-heart icon1"></i>
-                            </a>
-                            <div class="number number-change">0</div>
-                        </div>
-                        <div class="badge">
-                            <a href="./cart-page/cart.html"><i class="fas fa-shopping-cart icon"></i></a>
-                            <div class="number">0</div>
-                        </div>
-                        <i id="toggle-theme" class="fas fa-moon icon"></i>
-                    </div>
-                </div>
+      <nav>
+        <div class="navbar">
+          <a href="../product-page/product.html">
+            <h1 class="name"><i class="fas fa-bolt"></i> Stormpoint</h1>
+          </a>
+          <input class="header-input" placeholder="Search" type="text" />
+          <div class="margin-left-auto">
+            <div class="icon-container">
+              <div class="badge">
+                <a href="./wishlist.html">
+                  <i class="fa-solid fas fa-user"></i>
+                </a>
+                <div class="number icon1">0</div>
+                <a href="./login-page/login.html">Profile</a>
+              </div>
+              <div class="badge">
+                <a href="./wishlist.html">
+                  <i class="far fa-heart"></i>
+                </a>
+                <div class="number icon2">0</div>
+                <a href="./wishlist-page/wishlist.html">Wishlist</a>
+              </div>
+              <div class="badge">
+                <a href="../cart-page/cart.html">
+                  <i class="fas fa-shopping-cart"></i>
+                </a>
+                <div class="number icon3">0</div>
+                <a href="./cart-page/cart.html">Cart</a>
+              </div>
+              <i id="toggle-theme" class="fas fa-moon icon"></i>
             </div>
-            <input class="mobile-input" type="text" placeholder="Search" />
-        </nav>
-        <div class="showcase-container">
-            <div class="title-container">
-                <img class="hero-img" src="./assets/landing-page/hero-img.jpg" alt="">
-                <div class="hero-section">
-                    <h1 class="name">Stormpoint</h1>
-                    <p>"Build Your Ultimate Setup"</p>
-                    <a href="./product-page/product.html"><button class="btn primary-btn">Shop Now</button></a>
-                </div>
-            </div>
-            <div class="section-title">
-                <h1>Featured Brands</h1>
-            </div>
-            <div class="underline"></div>
-            <div class="categories-section display-flex">
-                <div class="category display-flex">
-                    <img class="rsp-img"
-                        src="./assets/landing-page/brand-intel.png"
-                        alt="Intel Brand Logo" />
-                </div>
-                <div class="category display-flex">
-                    <img class="rsp-img"
-                        src="./assets/landing-page/brand-amd.jpg"
-                        alt="AMD Brand Logo" />
-                </div>
-                <div class="category display-flex">
-                    <img class="rsp-img"
-                        src="./assets/landing-page/brand-nvidia.jpg"
-                        alt="Nvidia Brand Logo" />
-                </div>
-                <div class="category display-flex">
-                    <img class="rsp-img"
-                        src="./assets/landing-page/brand-hyperx.jpg"
-                        alt="HyperX Brand Logo" />
-                </div>
-            </div>
-            <div class="section-title">
-                <h1>Featured Categories</h1>
-            </div>
-            <div class="underline"></div>
-            <div class="categories-section display-flex">
-                <div class="category display-flex">
-                    <img class="rsp-img"
-                        src="./assets/landing-page/processor-img.jpg"
-                        alt="Processor Img" />
-                    <h2>Processor</h2>
-                </div>
-                <div class="category display-flex">
-                    <img class="rsp-img"
-                        src="./assets/landing-page/graphics-card-img.jpg"
-                        alt="Graphics Card Img" />
-                    <h2>Graphic Card</h2>
-                </div>
-                <div class="category display-flex">
-                    <img class="rsp-img"
-                        src="./assets/landing-page/ram-img.jpg"
-                        alt="Ram Img" />
-                    <h2>Ram</h2>
-                </div>
-                <div class="category display-flex">
-                    <img class="rsp-img"
-                        src="./assets/landing-page/cabinet-img.jpg"
-                        alt="Cabinet Img" />
-                    <h2>Cabinet</h2>
-                </div>
-            </div>
+          </div>
         </div>
-        <footer>
-            <div class="footer">
-                <h2>Made by Dhruv Samant</h2>
-                <div class="footer-icon-container">
-                    <a href="https://github.com/B0llu"><i class="fab fa-github"></i></a>
-                    <a href="https://twitter.com/TheBestDhruv"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-        </footer>
+        <input class="mobile-input" type="text" placeholder="Search" />
+      </nav>
+      <div class="showcase-container">
+        <div class="title-container">
+          <img
+            class="hero-img"
+            src="./assets/landing-page/hero-img.jpg"
+            alt=""
+          />
+          <div class="hero-section">
+            <h1 class="name">Stormpoint</h1>
+            <p>"Build Your Ultimate Setup"</p>
+            <a href="./product-page/product.html"
+              ><button class="btn primary-btn">Shop Now</button></a
+            >
+          </div>
+        </div>
+        <div class="section-title">
+          <h1>Featured Brands</h1>
+        </div>
+        <div class="underline"></div>
+        <div class="categories-section display-flex">
+          <div class="category display-flex">
+            <img
+              class="rsp-img"
+              src="./assets/landing-page/brand-intel.png"
+              alt="Intel Brand Logo"
+            />
+          </div>
+          <div class="category display-flex">
+            <img
+              class="rsp-img"
+              src="./assets/landing-page/brand-amd.jpg"
+              alt="AMD Brand Logo"
+            />
+          </div>
+          <div class="category display-flex">
+            <img
+              class="rsp-img"
+              src="./assets/landing-page/brand-nvidia.jpg"
+              alt="Nvidia Brand Logo"
+            />
+          </div>
+          <div class="category display-flex">
+            <img
+              class="rsp-img"
+              src="./assets/landing-page/brand-hyperx.jpg"
+              alt="HyperX Brand Logo"
+            />
+          </div>
+        </div>
+        <div class="section-title">
+          <h1>Featured Categories</h1>
+        </div>
+        <div class="underline"></div>
+        <div class="categories-section display-flex">
+          <div class="category display-flex">
+            <img
+              class="rsp-img"
+              src="./assets/landing-page/processor-img.jpg"
+              alt="Processor Img"
+            />
+            <h2>Processor</h2>
+          </div>
+          <div class="category display-flex">
+            <img
+              class="rsp-img"
+              src="./assets/landing-page/graphics-card-img.jpg"
+              alt="Graphics Card Img"
+            />
+            <h2>Graphic Card</h2>
+          </div>
+          <div class="category display-flex">
+            <img
+              class="rsp-img"
+              src="./assets/landing-page/ram-img.jpg"
+              alt="Ram Img"
+            />
+            <h2>Ram</h2>
+          </div>
+          <div class="category display-flex">
+            <img
+              class="rsp-img"
+              src="./assets/landing-page/cabinet-img.jpg"
+              alt="Cabinet Img"
+            />
+            <h2>Cabinet</h2>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer">
+          <h2>Made by Dhruv Samant</h2>
+          <div class="footer-icon-container">
+            <a href="https://github.com/B0llu"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/TheBestDhruv"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
     </section>
     <script src="./ecom-js/theme.js"></script>
-</body>
-
+  </body>
 </html>

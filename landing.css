@@ -62,7 +62,7 @@ footer {
 }
 
 .hero-img {
-    width: 75%;
+    width: 65%;
     height: 70rem;
     border-radius: 10px;
 }
@@ -157,6 +157,7 @@ footer {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    bottom: 0;
     height: 100%;
     width: 100%;
     font-size: 1.5rem;
